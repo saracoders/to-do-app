@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+}
+
+h1 {
+    margin: 0 !important;
+	text-align: center;
+    background: tomato;
+    padding: 10px;
+    color: #fff;
+}
+.contenedor {
+	width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 10px;
+}
+
+@media (max-width: 800px){
+	.contenedor{
+		width: 100%;
+	}
+}
+
+#inputBox{
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	margin-top: 30px;
+
+}
+
+#tweets {
+	padding-top: 400px;
+}
+
+.tweet {
+	padding: 10px;
+	width: 100%;
+	
+}
+.tweeted{
+	display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid tomato;
+    padding-left: 10px;
+}
+
+#tweetButton {
+	padding: 10px 40px;
+    margin: 20px 0;
+    background: tomato;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+
+.borrar {
+	margin-top: -3px;
+	width: 40px;
+	height: 40px;
+	background:tomato;
+	color:white;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
